@@ -1,3 +1,5 @@
+!> **NOTE:** **Interlok 4.0+ requires Gradle 7.1**.
+
 Interlok's core component provides the base functionality to give you a start for your integration solution.  Many other components can be bolted on to provide extended functionality or custom handling for vendor specific technologies.  You can find a list of additional components [here](/pages/user-guide/adapter-optional-components).
 Each component essentially consists of an additional Interlok Java library and it's required dependent Java libraries.  Therefore making sure you add all of the required dependant libraries can be a challenge.  The standard way to to build your Interlok instances without fear of dependency management is to use our gradle builds.
 
