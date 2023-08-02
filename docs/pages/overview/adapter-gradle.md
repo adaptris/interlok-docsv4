@@ -119,5 +119,5 @@ Note, that I used gradle assemble rather than gradle build, as the tests for thi
 
 ## Further reading / More options
 
-For more information and documented additional gradle options (including how to specify the Interlok version) see our parent gradle docs [here](https://github.com/adaptris-labs/interlok-build-parent).
+For more information and documented additional gradle options (including how to specify the Interlok version) see our parent gradle docs [here](https://github.com/adaptris/interlok-build-parent).
 For more details on the sample project we've cloned for this exercise go [here](https://github.com/adaptris-labs/build-parent-json-csv/tree/docker-image).
