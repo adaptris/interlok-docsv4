@@ -5,6 +5,14 @@ Each component essentially consists of an additional Interlok Java library and i
 
 This guide will walk you through creating both a standalone and optionally a docker Interlok instance with the optional components you require.
 
+**Please note:** The example repo is now configured to use the V5 build parent so ensure you change the following if you wish to build a v4 instance.
+```
+ext {
+  interlokVersion = '4.9.0-RELEASE' 
+  interlokUiVersion = interlokVersion
+  interlokParentGradle = "https://raw.githubusercontent.com/adaptris/interlok-build-parent/develop/v4/build.gradle"
+```
+
 ## Setup
 
 The steps are very simple with most of the difficulties having been handled for you.  Simply clone [this](https://github.com/adaptris-labs/build-parent-json-csv/tree/docker-image) sample project to your local filesystem.   You can clone the project using either GIT clone or simply downloading the zip file.
