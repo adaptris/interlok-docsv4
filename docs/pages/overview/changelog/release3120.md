@@ -15,7 +15,6 @@ In 3.12.0.4-RELEASE both of those issues are fixed.
 If you cannot upgrade to 3.12.0.4-RELEASE but still want to fix **CVE-2023-44487** and **CVE-2023-36478** you should replace all jetty jars in the lib directory with their 9.4.53.v20231009 equivalent.
 Than you either need to use a fixed jetty.xml (no duplicated id) in the config directory or use a system property to disable XML validation `org.eclipse.jetty.xml.XmlParser.Validating=false`.
 
-
 ## Version 3.12.0.3 ##
 
 Release Date : 2021-12-21
