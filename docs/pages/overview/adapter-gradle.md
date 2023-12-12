@@ -8,7 +8,7 @@ This guide will walk you through creating both a standalone and optionally a doc
 **Please note:** The example repo is now configured to use the V5 build parent so ensure you change the following if you wish to build a v4 instance.
 ```
 ext {
-  interlokVersion = '4.9.0-RELEASE' 
+  interlokVersion = '4.9.1-RELEASE' 
   interlokUiVersion = interlokVersion
   interlokParentGradle = "https://raw.githubusercontent.com/adaptris/interlok-build-parent/develop/v4/build.gradle"
 ```
